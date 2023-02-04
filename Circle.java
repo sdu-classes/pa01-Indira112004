@@ -23,6 +23,8 @@ public class Circle {
 
     @Override
     public String toString() {
-        return "Circule radius= "+ radius;
+        return "Circule radius= "+ radius
+             " \nArea = " + gerArea()+
+                " \nCircumference = "+ getCircumference();
     }
 }
